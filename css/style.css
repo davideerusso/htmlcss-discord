@@ -11,37 +11,51 @@
   /* padding-left: auto;
   padding-right: auto; */
 }
+main {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .head {
   padding: 15px;
-  background-color: rgb(159, 223, 255);
+  background-color: #255ce8ff;
 }
 .menu-flex {
   display: flex;
   justify-content: space-between;
   /* padding: 10px; */
-  background-color: rgb(255, 174, 0);
+  /* background-color: rgb(255, 174, 0); */
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
   flex-grow: 1;
 }
 .menu-flex .login {
-  border: 2px dashed black;
+  /* border: 2px dashed black; */
   padding: 15px;
+  color: white;
 
   text-align: right;
   width: 25%;
 }
+.button {
+  border-radius: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+}
 .menu-flex .link a {
   text-decoration: none;
-  color: black;
+  color: white;
+  padding-left: 30px;
+  text-align: center;
 }
 .menu-flex .link {
-  border: 2px dashed black;
+  /* border: 2px dashed black; */
   padding: 15px;
   flex-grow: 1;
   text-align: center;
 }
 .menu-flex .logo {
-  border: 2px dashed black;
+  /* border: 2px dashed black; */
   padding: 15px;
 
   text-align: left;
@@ -49,17 +63,49 @@
 }
 
 .blu {
-  background-color: rgb(0, 0, 146);
+  /* background-color: rgb(0, 0, 146); */
+  background-image: url("../img/jumbo.png");
+  background-size: 100%;
   height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .pink {
-  background-color: rgb(250, 106, 255);
+  /* background-color: rgb(250, 106, 255); */
   height: 400px;
   width: 900px;
-  border: 1px dashed black;
+
+  /* border: 1px dashed black; */
+}
+.title {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.paragrafo {
+  text-align: center;
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 35px;
+  color: white;
+}
+.pulsanti {
+  display: flex;
+  justify-content: center;
+}
+.pulsanti .button {
+  margin: 20px 10px 10px 10px;
+}
+.xl {
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .back {
   background-color: white;
