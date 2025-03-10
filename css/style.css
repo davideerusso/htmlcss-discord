@@ -287,3 +287,32 @@ body {
   color: #7289d6ff;
   font-weight: bold;
 }
+.slide-second {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  /* height: 100%; */
+  padding-top: 100px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid white;
+  margin-bottom: 30px;
+}
+.final {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px; */
+  /* background-color: cyan; */
+
+  /* height: 200px; */
+  /* padding-top: 10px; */
+  padding-bottom: 10px;
+}
+/* .logo {
+  padding: 5px;
+  background-color: pink;
+  border: 1px dashed black;
+} */
+.final .button {
+  background-color: #7187d9ff;
+  color: white;
+}
