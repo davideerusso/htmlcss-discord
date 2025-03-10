@@ -14,7 +14,9 @@
 main {
   font-family: Arial, Helvetica, sans-serif;
 }
-
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 .head {
   padding: 15px;
   background-color: #255ce8ff;
@@ -81,7 +83,7 @@ main {
 .title {
   color: white;
   text-align: center;
-  font-size: 45px;
+  font-size: 50px;
   padding-top: 70px;
   padding-bottom: 30px;
 }
@@ -101,38 +103,63 @@ main {
   margin: 20px 10px 10px 10px;
 }
 .xl {
-  font-size: 20px;
+  font-size: 22px;
   padding: 15px;
   border-radius: 30px;
   padding-left: 25px;
   padding-right: 25px;
 }
+.black {
+  background-color: #222629ff;
+  color: white;
+}
 .back {
   background-color: white;
-  height: 620px;
+  /* height: 620px; */
 }
 .slide {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   height: 100%;
-}
-.azzurro {
-  background-color: rgb(69, 130, 223);
+  padding-top: 110px;
+  padding-bottom: 100px;
 }
 
-.rosa {
+/* .azzurro {
+  background-color: rgb(69, 130, 223);
+} */
+
+/* .rosa {
   background-color: pink;
-}
-.box {
+} */
+/* .box {
   height: 500px;
-  border: 1px dashed black;
+  border: 1px dashed black; */
 }
-.box.fissa {
-  width: 400px;
+/* .box.fissa {
+  width: 400px; */
 }
 .box.grow {
   flex-grow: 1;
+
+}
+.title-secondary {
+  color: black;
+  text-align: left;
+  font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.paragrafo-scuro {
+  text-align: left;
+  font-size: 20px;
+ 
+
+  /* padding-left: 40px; */
+  /* padding-right: 40px; */
+  line-height: 35px;
+  color: black;
 }
 
 .back-light {
