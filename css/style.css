@@ -135,14 +135,13 @@ body {
 } */
 /* .box {
   height: 500px;
-  border: 1px dashed black; */
-}
+  border: 1px dashed black;
+} */
 /* .box.fissa {
-  width: 400px; */
-}
+  width: 400px;
+} */
 .box.grow {
   flex-grow: 1;
-
 }
 .title-secondary {
   color: black;
@@ -154,7 +153,6 @@ body {
 .paragrafo-scuro {
   text-align: left;
   font-size: 20px;
- 
 
   /* padding-left: 40px; */
   /* padding-right: 40px; */
@@ -163,7 +161,7 @@ body {
 }
 
 .back-light {
-  background-color: rgb(182, 182, 182);
+  background-color: #f5f5f5ff;
   height: 620px;
 }
 .back-light .slide {
